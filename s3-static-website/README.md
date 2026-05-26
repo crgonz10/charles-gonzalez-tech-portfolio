@@ -74,3 +74,13 @@ Enabled versioning on the bucket so that overwritten or deleted objects are reco
 - Use **S3 Origin Access Control (OAC)** with CloudFront so the bucket never needs to be public
 - Enable **S3 server access logging** to capture all requests for audit purposes
 - Set a **lifecycle policy** to expire old versions after 30–90 days to manage storage costs
+
+## Screenshots
+
+![Static Website Hosting](s3-static-hosting.png)
+
+![Block Public Access](s3-block-public-access.png)
+
+![Bucket Policy](s3-bucket-policy.png)
+
+![Objects](s3-objects.png)
