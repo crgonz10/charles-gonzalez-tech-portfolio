@@ -51,7 +51,7 @@ Enabled versioning on the bucket so that overwritten or deleted objects are reco
       "Effect": "Allow",
       "Principal": "*",
       "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::my-static-site/*"
+      "Resource": "arn:aws:s3:::my-static-website-demov1/*"
     }
   ]
 }
