@@ -68,3 +68,15 @@ AWS denies everything by default (implicit deny). I tested the difference betwee
 - Implement **AWS Organizations SCPs** (Service Control Policies) to set hard permission boundaries across accounts
 - Enable **CloudTrail** to log all API calls for audit and incident response
 - Rotate access keys on a schedule and alert on unused credentials
+
+## Screenshots
+
+![IAM Users List](iam-users-list.png)
+
+![Admin User Policy](admin-user-policy.png)
+
+![Dev User Policy](dev-user-policy.png)
+
+![ReadOnly User Policy](readonly-user-policy.png)
+
+![Password Policy](password-policy.png)
