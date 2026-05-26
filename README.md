@@ -1,48 +1,40 @@
-# AWS Hands-On Labs
+# AWS Cloud Portfolio
 
-This repository documents my hands-on AWS labs as I build foundational cloud skills and transition into a cloud/IT career.
+Cloud infrastructure projects demonstrating hands-on experience with core AWS services, security architecture, serverless design, and network configuration.
 
----
-
-## Skills Demonstrated
-
-- Amazon EC2
-- AWS IAM
-- Amazon S3
-- Amazon VPC
-- Security Groups
-- Static Website Hosting
-- Amazon DynamoDB
+**AWS Certified Cloud Practitioner** | **CompTIA Security+ (SY0-701)**
 
 ---
 
-## Labs
+## Projects
 
-### [EC2 Instance Launch](./ec2-launch-instance)
-- Launched and configured an EC2 instance
-- Reviewed instance settings, networking, and security groups
-- Practiced basic compute concepts
-
-### [IAM Users and Groups](./iam-users-and-groups)
-- Created IAM users and groups
-- Applied permissions and least-privilege concepts
-- Practiced account security fundamentals
-
-### [S3 Static Website](./s3-static-website)
-- Configured S3 for static website hosting
-- Reviewed bucket permissions and object storage concepts
-
-### [VPC Basics](./vpc-basics)
-- Explored VPC structure, subnets, and network concepts
-- Reviewed how resources communicate inside AWS
-
-### [DynamoDB Basics](./dynamodb_basics)
-- Created and explored a DynamoDB table
-- Added and reviewed sample data
-- Practiced basic cloud database concepts
+| Project | Services Used | Highlights |
+|---|---|---|
+| [EC2 Web Server Deployment](./ec2-launch-instance) | EC2, Security Groups, VPC | Instance hardening, inbound rule scoping |
+| [IAM Least-Privilege Access](./iam-users-and-groups) | IAM, Policies, Groups | Role separation, deny-by-default design |
+| [S3 Static Website with Access Controls](./s3-static-website) | S3, Bucket Policies, Versioning | Public access config, object permissions |
+| [Custom VPC Network Architecture](./vpc_basics) | VPC, Subnets, Route Tables, IGW | Isolated network design, routing logic |
+| [Serverless REST API](./lambda-api-gateway) | Lambda, API Gateway, IAM | End-to-end serverless architecture |
+| [DynamoDB Serverless Database](./dynamodb_basics) | DynamoDB | Key schema design, query patterns |
 
 ---
 
-## Goal
+## Core Competencies Demonstrated
 
-To build practical AWS experience and document my progress as I move into cloud and IT support roles.
+- **Network Architecture** — Custom VPC design with public/private subnet segmentation, route table configuration, and internet gateway routing
+- **Identity & Access Management** — Least-privilege IAM policies, role separation, group-based permission models
+- **Serverless Architecture** — Lambda functions triggered via API Gateway with proper IAM execution roles
+- **Storage & Access Control** — S3 bucket policies, versioning, and object-level permission enforcement
+- **Compute Configuration** — EC2 instance deployment with security group hardening and network-layer controls
+- **Security Posture** — Applied AWS Shared Responsibility Model and defense-in-depth principles across all projects
+
+---
+
+## Certifications
+
+- **AWS Certified Cloud Practitioner** — Issued 2026
+- **CompTIA Security+ (SY0-701)** — Issued 2026
+
+---
+
+*Each project folder contains architecture notes, configuration decisions, and lessons from real troubleshooting.*
