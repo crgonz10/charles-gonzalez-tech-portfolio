@@ -65,3 +65,13 @@ Layered security groups on top of subnet-level network ACLs. Security groups are
 - Implement **Network ACLs** as a secondary stateless defense layer at the subnet boundary
 - Enable **VPC Flow Logs** to capture all network traffic for monitoring and incident investigation
 - Use **VPC Endpoints** for services like S3 and DynamoDB to keep that traffic inside the AWS network
+
+  ## Screenshots
+
+![VPC Overview](vpc-overview.png)
+
+![Subnets](vpc-subnets.png)
+
+![Public Subnet Route Table](public-subnet-routes.png)
+
+![Private Subnet Route Table](private-subnet-routes.png)
