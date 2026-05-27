@@ -57,3 +57,13 @@ Selected t2.micro intentionally — for a non-production web server, right-sizin
 - Use **Systems Manager Session Manager** for SSH access instead of opening port 22 at all
 - Attach an **IAM instance profile** with least-privilege permissions rather than embedding credentials
 - Enable **CloudWatch agent** for log forwarding and metric collection
+
+## Screenshots
+
+![EC2 Running Instance](ec2-running-instance.png)
+
+![Instance Details](ec2-instance-details.png)
+
+![Security Group Inbound Rules](ec2-security-group-rules.png)
+
+![Key Pair](ec2-key-pair.png)
