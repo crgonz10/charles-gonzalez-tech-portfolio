@@ -81,3 +81,11 @@ SK BETWEEN "2026-01-01T00:00:00Z" AND "2026-01-31T23:59:59Z"
 - Enable **DynamoDB Streams** to trigger Lambda functions on data changes (event-driven architecture)
 - Set **TTL (Time to Live)** on session records to automatically expire old data and control table size
 - Use **IAM resource-based conditions** to restrict which Lambda functions or services can read/write to this specific table
+
+## Screenshots
+
+![Table Overview](dynamodb-table-overview.png)
+
+![Items List](dynamodb-items.png)
+
+![Item Detail](dynamodb-item-detail.png)
