@@ -125,3 +125,17 @@ Lambda automatically creates a log group. The execution role includes `logs:PutL
 - Add **Lambda error handling and dead letter queues (DLQ)** for failed invocations
 - Use **AWS SAM or CDK** to define and deploy this infrastructure as code instead of clicking through the console
 - Enable **X-Ray tracing** across API Gateway and Lambda for end-to-end performance visibility
+
+## Screenshots
+
+![Lambda Functions List](lambda-functions-list.png)
+
+![Lambda Code](lambda-code.png)
+
+![Test Execution Success](lambda-test-success.png)
+
+![Execution Role Permissions](lambda-execution-role.png)
+
+![DynamoDB Items Table](dynamodb-items-table.png)
+
+![Item Created by Lambda](lambda-dynamodb-item.png)
